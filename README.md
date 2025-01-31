@@ -33,7 +33,7 @@ The model follows a typical decoder-only Transformer design with:
 | Dropout         | 0.0   |
 
 ## Dataset
-The model is trained on **The Adventure of the Empty House** (a Sherlock Holmes story). The text is first converted into a vocabulary of unique characters, which are then mapped to integers for training.
+The model is trained on **The Adventure of the Empty House** (a Sherlock Holmes story) also on **Tiny Shakespeare**. The text is first converted into a vocabulary of unique characters, which are then mapped to integers for training.
 
 ## Installation
 To run this project, ensure you have Python and PyTorch installed:
@@ -42,7 +42,7 @@ pip install torch
 ```
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/Decodex.git
+git clone https://github.com/sourize/Decodex.git
 cd Decodex
 ```
 
@@ -50,7 +50,7 @@ cd Decodex
 ### Training the Model
 Run the training script to train the model from scratch:
 ```bash
-python train.py
+python decodex.py
 ```
 
 ### Generating Text
